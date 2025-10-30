@@ -1,0 +1,1744 @@
+{
+    "Network": {
+        "Error": "collect_compliance_status.<locals>.network_check() takes 1 positional argument but 3 were given"
+    },
+    "Defender": {
+        "AMServiceEnabled": true,
+        "AntivirusEnabled": true,
+        "RealTimeProtectionEnabled": true,
+        "AntispywareEnabled": true,
+        "QuickScanSignatureVersion": "1.439.193.0",
+        "AVSignatureVersion": null,
+        "AntivirusSignatureLastUpdated": "/Date(1760517466000)/",
+        "AntivirusSignatureAge": 0,
+        "TamperProtection": "Disabled/Unknown"
+    },
+    "AccessControl": {
+        "LocalAdmins": [
+            {
+                "Name": "yami\\Administrator",
+                "ObjectClass": "User",
+                "PrincipalSource": 1,
+                "SID": {
+                    "BinaryLength": 28,
+                    "AccountDomainSid": {
+                        "BinaryLength": 24,
+                        "AccountDomainSid": {
+                            "BinaryLength": 24,
+                            "AccountDomainSid": {
+                                "BinaryLength": 24,
+                                "AccountDomainSid": {
+                                    "BinaryLength": 24,
+                                    "AccountDomainSid": "S-1-5-21-438992173-103324404-3914156177",
+                                    "Value": "S-1-5-21-438992173-103324404-3914156177"
+                                },
+                                "Value": "S-1-5-21-438992173-103324404-3914156177"
+                            },
+                            "Value": "S-1-5-21-438992173-103324404-3914156177"
+                        },
+                        "Value": "S-1-5-21-438992173-103324404-3914156177"
+                    },
+                    "Value": "S-1-5-21-438992173-103324404-3914156177-500"
+                }
+            },
+            {
+                "Name": "YAMI\\yamis",
+                "ObjectClass": "User",
+                "PrincipalSource": 4,
+                "SID": {
+                    "BinaryLength": 28,
+                    "AccountDomainSid": {
+                        "BinaryLength": 24,
+                        "AccountDomainSid": {
+                            "BinaryLength": 24,
+                            "AccountDomainSid": {
+                                "BinaryLength": 24,
+                                "AccountDomainSid": {
+                                    "BinaryLength": 24,
+                                    "AccountDomainSid": "S-1-5-21-438992173-103324404-3914156177",
+                                    "Value": "S-1-5-21-438992173-103324404-3914156177"
+                                },
+                                "Value": "S-1-5-21-438992173-103324404-3914156177"
+                            },
+                            "Value": "S-1-5-21-438992173-103324404-3914156177"
+                        },
+                        "Value": "S-1-5-21-438992173-103324404-3914156177"
+                    },
+                    "Value": "S-1-5-21-438992173-103324404-3914156177-1002"
+                }
+            }
+        ],
+        "PasswordPolicy": {
+            "MinimumPasswordAgeDays": 0,
+            "MaximumPasswordAgeDays": 42,
+            "MinimumPasswordLength": 0,
+            "LockoutThreshold": 10,
+            "LockoutDurationMinutes": 10,
+            "LockoutObservationWindowMinutes": 10,
+            "PasswordComplexity": false
+        },
+        "WindowsHello": {
+            "NgcExists": false,
+            "NgcPathAccessible": false,
+            "WindowsHelloForBusinessPolicy": null,
+            "Note": "Presence of Ngc folder or PassportForWork keys suggests Windows Hello/PIN may be configured. This does not prove MFA."
+        }
+    },
+    "BackupRecovery": {
+        "BackupServices": [
+            {
+                "Name": "SDRSVC",
+                "Status": 1
+            },
+            {
+                "Name": "vmicvss",
+                "Status": 1
+            },
+            {
+                "Name": "VSS",
+                "Status": 1
+            },
+            {
+                "Name": "wbengine",
+                "Status": 1
+            }
+        ],
+        "LastBackup": "NotAvailable",
+        "BackupEncryption": "NotEnabled",
+        "RestoreTests": []
+    },
+    "Logging": {
+        "SecurityAuditing": {
+            "AuditingEnabled": true,
+            "Categories": {
+                "System Integrity Success": {
+                    "Success": false,
+                    "Failure": true
+                },
+                "Other System Events Success": {
+                    "Success": false,
+                    "Failure": true
+                },
+                "Security State": {
+                    "Success": false,
+                    "Failure": false
+                },
+                "Logon Success": {
+                    "Success": false,
+                    "Failure": true
+                },
+                "": {
+                    "Success": false,
+                    "Failure": false
+                },
+                "Account": {
+                    "Success": false,
+                    "Failure": false
+                },
+                "Special": {
+                    "Success": false,
+                    "Failure": false
+                },
+                "Network Policy Server Success": {
+                    "Success": false,
+                    "Failure": true
+                },
+                "Audit Policy": {
+                    "Success": false,
+                    "Failure": false
+                },
+                "Authentication Policy": {
+                    "Success": false,
+                    "Failure": false
+                },
+                "Security Group": {
+                    "Success": false,
+                    "Failure": false
+                },
+                "User Account": {
+                    "Success": false,
+                    "Failure": false
+                }
+            }
+        },
+        "EventLogs": {
+            "EventLogsEnabledCount": 365,
+            "EventLogsEnabled": [
+                {
+                    "LogName": "Windows PowerShell",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 15728640,
+                    "RecordCount": 3627
+                },
+                {
+                    "LogName": "System",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 20971520,
+                    "RecordCount": 15197
+                },
+                {
+                    "LogName": "Security",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 20971520,
+                    "RecordCount": 30148
+                },
+                {
+                    "LogName": "OneApp_IGCC",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 1052672,
+                    "RecordCount": 597
+                },
+                {
+                    "LogName": "OAlerts",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 1052672,
+                    "RecordCount": 89
+                },
+                {
+                    "LogName": "Key Management Service",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 20971520,
+                    "RecordCount": 0
+                },
+                {
+                    "LogName": "Internet Explorer",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 1052672,
+                    "RecordCount": 0
+                },
+                {
+                    "LogName": "IntelAudioServiceLog",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 1052672,
+                    "RecordCount": 0
+                },
+                {
+                    "LogName": "Intel Graphics Software",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 1052672,
+                    "RecordCount": 196
+                },
+                {
+                    "LogName": "HardwareEvents",
+                    "IsEnabled": true,
+                    "LogType": 0,
+                    "MaximumSizeInBytes": 20971520,
+                    "RecordCount": 0
+                }
+            ]
+        },
+        "LogRetention": {
+            "Security": {
+                "LogName": "Security",
+                "MaximumSizeInBytes": 20971520,
+                "LogMode": 0,
+                "Retention": null
+            },
+            "System": {
+                "LogName": "System",
+                "MaximumSizeInBytes": 20971520,
+                "LogMode": 0,
+                "Retention": null
+            },
+            "Application": {
+                "LogName": "Application",
+                "MaximumSizeInBytes": 20971520,
+                "LogMode": 0,
+                "Retention": null
+            }
+        },
+        "PSLogging": {
+            "ScriptBlockLogging": "Disabled",
+            "ModuleLogging": "Disabled"
+        },
+        "TimeSync": {
+            "Service": {
+                "Status": 4,
+                "StartType": 3
+            },
+            "Note": "W32Time service not running; system may sync via AD/VMware instead."
+        }
+    },
+    "Hardening": {
+        "Firewall": {
+            "FirewallProfiles": {
+                "Domain": true,
+                "Private": true,
+                "Public": true
+            }
+        },
+        "RDP": {
+            "RDPEnabled": false,
+            "NLARequired": true
+        },
+        "BitLocker": {
+            "BitLockerVolumes": [
+                {
+                    "MountPoint": "C:",
+                    "VolumeStatus": 0,
+                    "ProtectionStatus": 0,
+                    "EncryptionPercentage": 0,
+                    "LockStatus": 0
+                },
+                {
+                    "MountPoint": "D:",
+                    "VolumeStatus": 0,
+                    "ProtectionStatus": 0,
+                    "EncryptionPercentage": 0,
+                    "LockStatus": 0
+                }
+            ]
+        },
+        "SecureBoot": {
+            "SecureBootEnabled": true
+        },
+        "InsecureServices": {
+            "TelnetService": "NotInstalled",
+            "SMBv1": "Disabled"
+        }
+    },
+    "Inventory": {
+        "OSInfo": {
+            "WindowsProductName": "Windows 10 Home",
+            "WindowsVersion": "2009",
+            "OsHardwareAbstractionLayer": "10.0.26100.1"
+        },
+        "UserInfo": {
+            "UserName": "yamis",
+            "UserHome": "C:\\Users\\yamis",
+            "UserDir": "C:\\Users\\yamis\\Desktop\\Autocomply\\codes"
+        },
+        "JavaRuntime": {
+            "JavaVersion": null,
+            "JavaHome": null,
+            "JavaVendor": null
+        },
+        "InstalledApps": [
+            {
+                "DisplayName": "7-Zip 25.01 (x64)",
+                "DisplayVersion": "25.01"
+            },
+            {
+                "DisplayName": "Cheat Engine 7.6",
+                "DisplayVersion": null
+            },
+            {
+                "DisplayName": "Cisco Packet Tracer 8.2.2 64Bit",
+                "DisplayVersion": "8.2.2.400"
+            },
+            {
+                "DisplayName": "Microsoft OneDrive",
+                "DisplayVersion": "25.179.0914.0003"
+            },
+            {
+                "DisplayName": "Microsoft Office LTSC Professional Plus 2024 - en-us",
+                "DisplayVersion": "16.0.17932.20540"
+            },
+            {
+                "DisplayName": "Proton VPN",
+                "DisplayVersion": "4.3.1"
+            },
+            {
+                "DisplayName": "WebStorm 2025.2.3",
+                "DisplayVersion": "252.26830.93"
+            },
+            {
+                "DisplayName": "WinRAR 7.00 (64-bit)",
+                "DisplayVersion": "7.00.0"
+            },
+            {
+                "DisplayName": "Dell SupportAssist",
+                "DisplayVersion": "4.10.1.42635"
+            },
+            {
+                "DisplayName": "Node.js",
+                "DisplayVersion": "22.20.0"
+            },
+            {
+                "DisplayName": "Universal CRT Tools x64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Development Libraries (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Dell Update for Windows Universal",
+                "DisplayVersion": "5.0.0"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Tcl/Tk Support (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+                "DisplayVersion": "14.44.35211"
+            },
+            {
+                "DisplayName": "Windows App Certification Kit Native Components",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft .NET Host - 6.0.30 (x64)",
+                "DisplayVersion": "48.120.13561"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Tcl/Tk Support (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Windows SDK DirectX x64 Remote",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft .NET Runtime - 6.0.30 (x64)",
+                "DisplayVersion": "48.120.13561"
+            },
+            {
+                "DisplayName": "Python 3.14.0 pip Bootstrap (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Microsoft .NET Host FX Resolver - 8.0.19 (x64)",
+                "DisplayVersion": "64.76.37566"
+            },
+            {
+                "DisplayName": "SupportAssist Recovery Assistant",
+                "DisplayVersion": "5.5.14.0"
+            },
+            {
+                "DisplayName": "Dell SupportAssist OS Recovery Plugin for Dell Update",
+                "DisplayVersion": "5.5.14.0"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Add to Path (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Microsoft Visual Studio Installer",
+                "DisplayVersion": "3.14.2086.54749"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Executables (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Standard Library (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Add to Path (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Eclipse Temurin JRE with Hotspot 17.0.8.1+1 (x64)",
+                "DisplayVersion": "17.0.8.101"
+            },
+            {
+                "DisplayName": "Python 3.10.10 pip Bootstrap (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+                "DisplayVersion": "14.44.35211"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Core Interpreter (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Core Interpreter (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Office 16 Click-to-Run Licensing Component",
+                "DisplayVersion": "16.0.17932.20540"
+            },
+            {
+                "DisplayName": "Office 16 Click-to-Run Extensibility Component",
+                "DisplayVersion": "16.0.17928.20216"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Documentation (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "VS Script Debugging Common",
+                "DisplayVersion": "16.0.102.0"
+            },
+            {
+                "DisplayName": "Microsoft Windows Desktop Runtime - 8.0.19 (x64)",
+                "DisplayVersion": "64.76.37602"
+            },
+            {
+                "DisplayName": "Oracle VirtualBox 7.2.2",
+                "DisplayVersion": "7.2.2"
+            },
+            {
+                "DisplayName": "PowerToys (Preview)",
+                "DisplayVersion": "0.94.2"
+            },
+            {
+                "DisplayName": "Safe Exam Browser (x64)",
+                "DisplayVersion": "3.10.0.826"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2019 X64 Debug Runtime - 14.29.30157",
+                "DisplayVersion": "14.29.30157"
+            },
+            {
+                "DisplayName": "NVIDIA Graphics Driver 576.83",
+                "DisplayVersion": "576.83"
+            },
+            {
+                "DisplayName": "NVIDIA PhysX System Software 9.23.1019",
+                "DisplayVersion": "9.23.1019"
+            },
+            {
+                "DisplayName": "NVIDIA HD Audio Driver 1.4.3.2",
+                "DisplayVersion": "1.4.3.2"
+            },
+            {
+                "DisplayName": "NVIDIA Install Application",
+                "DisplayVersion": "2.1002.428.0"
+            },
+            {
+                "DisplayName": "NVIDIA Platform Controllers and Framework",
+                "DisplayVersion": "575.82"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Test Suite (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Microsoft .NET Host - 8.0.19 (x64)",
+                "DisplayVersion": "64.76.37566"
+            },
+            {
+                "DisplayName": "Microsoft .NET Runtime - 8.0.19 (x64)",
+                "DisplayVersion": "64.76.37566"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Documentation (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Python 3.14.0 Executables (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Development Libraries (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Dell SupportAssist Remediation",
+                "DisplayVersion": "5.5.14.0"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Test Suite (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Application Verifier x64 External Package",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Windows Desktop Runtime - 6.0.30 (x64)",
+                "DisplayVersion": "48.120.13587"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Utility Scripts (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Python 3.10.10 Standard Library (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            },
+            {
+                "DisplayName": "Microsoft .NET Host FX Resolver - 6.0.30 (x64)",
+                "DisplayVersion": "48.120.13561"
+            },
+            {
+                "DisplayName": "Visual Studio Build Tools 2019",
+                "DisplayVersion": "16.11.51"
+            },
+            {
+                "DisplayName": "Brave",
+                "DisplayVersion": "141.1.83.112"
+            },
+            {
+                "DisplayName": "Google Chrome",
+                "DisplayVersion": "141.0.7390.77"
+            },
+            {
+                "DisplayName": "Maltego",
+                "DisplayVersion": "4"
+            },
+            {
+                "DisplayName": "Microsoft Edge",
+                "DisplayVersion": "141.0.3537.71"
+            },
+            {
+                "DisplayName": "Microsoft Edge WebView2 Runtime",
+                "DisplayVersion": "141.0.3537.71"
+            },
+            {
+                "DisplayName": "qBittorrent",
+                "DisplayVersion": "5.1.2"
+            },
+            {
+                "DisplayName": "Universal CRT Redistributable",
+                "DisplayVersion": "10.0.26624"
+            },
+            {
+                "DisplayName": "vs_minshellmsires",
+                "DisplayVersion": "16.10.31303"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Tools x86",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "WinRT Intellisense Mobile - en-us",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "vs_filehandler_amd64",
+                "DisplayVersion": "16.11.31503"
+            },
+            {
+                "DisplayName": "Windows IoT Extension SDK",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows Desktop Extension SDK",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "WinRT Intellisense UAP - en-us",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Headers arm64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Tools arm64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Tools x64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Signing Tools",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "WinRT Intellisense Desktop - Other Languages",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Universal CRT Extension SDK",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows App Certification Kit SupportedApiList x86",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "vs_communitymsires",
+                "DisplayVersion": "16.10.31213"
+            },
+            {
+                "DisplayName": "vs_communitymsi",
+                "DisplayVersion": "16.11.34930"
+            },
+            {
+                "DisplayName": "SDK ARM Additions",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Redistributables",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows Team Extension SDK Contracts",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "MSI Development Tools",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "WinAppDeploy",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows Software Development Kit - Windows 10.0.19041.5609",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Modern Versioned Developer Tools",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Visual Studio Setup Configuration",
+                "DisplayVersion": "3.7.2182.35401"
+            },
+            {
+                "DisplayName": "Microsoft Windows Desktop Runtime - 8.0.19 (x64)",
+                "DisplayVersion": "8.0.19.35118"
+            },
+            {
+                "DisplayName": "vs_filehandler_x86",
+                "DisplayVersion": "16.11.31503"
+            },
+            {
+                "DisplayName": "Universal CRT Headers Libraries and Sources",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Apps",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Modern Non-Versioned Developer Tools",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "WinRT Intellisense Desktop - en-us",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Dell Digital Delivery",
+                "DisplayVersion": "3.5.2015.0"
+            },
+            {
+                "DisplayName": "SDC-AI",
+                "DisplayVersion": "1.0.2"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Apps Metadata",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Libs x86",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Kits Configuration Installer",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Python Launcher",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "vs_minshellinteropmsi",
+                "DisplayVersion": "16.10.31306"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Apps Libs",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Headers arm",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK DirectX x86 Remote",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Universal CRT Redistributable",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Apps Contracts",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Safe Exam Browser",
+                "DisplayVersion": "3.10.0.826"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Apps Headers",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.29.30157",
+                "DisplayVersion": "14.29.30157"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.29.30157",
+                "DisplayVersion": "14.29.30157.0"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Headers x86",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Headers x64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows Team Extension SDK",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Apps Tools",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "vs_FileTracker_Singleton",
+                "DisplayVersion": "16.11.34827"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Apps DirectX x86 Remote",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2019 X86 Additional Runtime - 14.29.30157",
+                "DisplayVersion": "14.29.30157"
+            },
+            {
+                "DisplayName": "Microsoft Windows Desktop Runtime - 6.0.30 (x64)",
+                "DisplayVersion": "6.0.30.33617"
+            },
+            {
+                "DisplayName": "WinRT Intellisense UAP - Other Languages",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "vs_minshellmsi",
+                "DisplayVersion": "16.11.34902"
+            },
+            {
+                "DisplayName": "Windows IoT Extension SDK Contracts",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2019 X86 Debug Runtime - 14.29.30157",
+                "DisplayVersion": "14.29.30157"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Libs arm64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Libs arm",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Dell SupportAssist Remediation",
+                "DisplayVersion": "5.5.14.0"
+            },
+            {
+                "DisplayName": "Microsoft .NET Framework 4 Multi-Targeting Pack",
+                "DisplayVersion": "4.0.30319"
+            },
+            {
+                "DisplayName": "Update for  (KB2504637)",
+                "DisplayVersion": "1"
+            },
+            {
+                "DisplayName": "WinRT Intellisense IoT - en-us",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Dell SupportAssist OS Recovery Plugin for Dell Update",
+                "DisplayVersion": "5.5.14.0"
+            },
+            {
+                "DisplayName": "Windows SDK",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Universal General MIDI DLS Extension SDK",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows Desktop Extension SDK Contracts",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+                "DisplayVersion": "14.44.35211.0"
+            },
+            {
+                "DisplayName": "Windows Mobile Extension SDK",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK Facade Windows WinMD Versioned",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows Mobile Extension SDK Contracts",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK EULA",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "vcpp_crt.redist.clickonce",
+                "DisplayVersion": "14.29.30157"
+            },
+            {
+                "DisplayName": "Windows SDK Desktop Libs x64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Visual Studio Setup WMI Provider",
+                "DisplayVersion": "3.7.2182.35401"
+            },
+            {
+                "DisplayName": "Windows SDK AddOn",
+                "DisplayVersion": "10.1.0.0"
+            },
+            {
+                "DisplayName": "WinRT Intellisense IoT - Other Languages",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "WinRT Intellisense PPI - en-us",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK for Windows Store Managed Apps Libs",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "WinRT Intellisense PPI - Other Languages",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "SDK ARM Redistributables",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows App Certification Kit x64",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Windows SDK ARM Desktop Tools",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Universal CRT Tools x86",
+                "DisplayVersion": "10.1.19041.5609"
+            },
+            {
+                "DisplayName": "Microsoft Visual Studio Code (User)",
+                "DisplayVersion": "1.105.0"
+            },
+            {
+                "DisplayName": "Python 3.14.0 (64-bit)",
+                "DisplayVersion": "3.14.150.0"
+            },
+            {
+                "DisplayName": "PowerToys (Preview) x64",
+                "DisplayVersion": "0.94.2"
+            },
+            {
+                "DisplayName": "Python 3.10.10 (64-bit)",
+                "DisplayVersion": "3.10.10150.0"
+            }
+        ],
+        "Drivers": [
+            {
+                "DeviceName": "WAN Miniport (Network Monitor)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "WAN Miniport (IPv6)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "WAN Miniport (IP)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "WAN Miniport (PPPOE)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "WAN Miniport (PPTP)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "WAN Miniport (L2TP)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "WAN Miniport (IKEv2)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "WAN Miniport (SSTP)",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Generic software device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Local Print Queue",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Local Print Queue",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Generic software device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Generic software device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Generic software device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Generic software device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Generic software device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Computer Device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Remote Desktop Device Redirector Bus",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "System Management Device",
+                "DriverVersion": "8.2.0.454"
+            },
+            {
+                "DeviceName": "Microsoft Streaming Service Proxy",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Plug and Play Software Device Enumerator",
+                "DriverVersion": "10.0.26100.4202"
+            },
+            {
+                "DeviceName": "Microsoft System Management BIOS Driver",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "NDIS Virtual Network Adapter Enumerator",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "DellInstrumentation Device",
+                "DriverVersion": "2.9.1.0"
+            },
+            {
+                "DeviceName": "Microsoft Basic Render Driver",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Device Firmware",
+                "DriverVersion": "10.0.26100.4768"
+            },
+            {
+                "DeviceName": "Device Firmware",
+                "DriverVersion": "10.0.26100.4768"
+            },
+            {
+                "DeviceName": "System Firmware",
+                "DriverVersion": "10.0.26100.4768"
+            },
+            {
+                "DeviceName": "Microsoft UEFI-Compliant System",
+                "DriverVersion": "10.0.26100.4768"
+            },
+            {
+                "DeviceName": "NVIDIA Platform Controllers and Framework",
+                "DriverVersion": "32.0.15.7582"
+            },
+            {
+                "DeviceName": "Trusted Platform Module 2.0",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Motherboard resources",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "UCM-UCSI ACPI Device",
+                "DriverVersion": "10.0.26100.1882"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Tuning Manager",
+                "DriverVersion": "8.7.10600.20853"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "HID-compliant system controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "HID-compliant consumer control device",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "HID Keyboard Device",
+                "DriverVersion": "10.0.26100.1882"
+            },
+            {
+                "DeviceName": "Converted Portable Device Control device",
+                "DriverVersion": "10.0.26100.4484"
+            },
+            {
+                "DeviceName": "Portable Device Control device",
+                "DriverVersion": "10.0.26100.4484"
+            },
+            {
+                "DeviceName": "Intel(R) HID Event Filter",
+                "DriverVersion": "2.2.2.9"
+            },
+            {
+                "DeviceName": "Microsoft ACPI-Compliant Control Method Battery",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft AC Adapter",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "ACPI Lid",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Intel(R) Power Engine Plug-in",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "ACPI Processor Aggregator",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel Processor",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Motherboard resources",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Intel(R) Serial IO GPIO Host Controller - INT34C6",
+                "DriverVersion": "30.100.2104.1"
+            },
+            {
+                "DeviceName": "Motherboard resources",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Motherboard resources",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "ACPI Wake Alarm",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Windows Management Interface for ACPI",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Motherboard resources",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Intel(R) SPI (flash) Controller - 43A4",
+                "DriverVersion": "10.1.34.13"
+            },
+            {
+                "DeviceName": "Intel(R) SMBus - 43A3",
+                "DriverVersion": "10.1.34.13"
+            },
+            {
+                "DeviceName": "Audio Endpoint",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Realtek Speech Preprocessing IP DLL Component",
+                "DriverVersion": "1.0.28.815"
+            },
+            {
+                "DeviceName": "Realtek Audio Effects Component (INT)",
+                "DriverVersion": "13.0.6000.1167"
+            },
+            {
+                "DeviceName": "Intelr Smart Sound Technology for Digital Microphones",
+                "DriverVersion": "10.29.0.5152"
+            },
+            {
+                "DeviceName": "Audio Endpoint",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Nahimic APO 4",
+                "DriverVersion": "4.5.0.0"
+            },
+            {
+                "DeviceName": "Realtek Audio Universal Service",
+                "DriverVersion": "1.0.776.0"
+            },
+            {
+                "DeviceName": "Realtek Hardware Support Application",
+                "DriverVersion": "11.0.6000.338"
+            },
+            {
+                "DeviceName": "Realtek Asio Component",
+                "DriverVersion": "1.0.12.1"
+            },
+            {
+                "DeviceName": "Realtek Audio Effects Component",
+                "DriverVersion": "13.0.6000.1167"
+            },
+            {
+                "DeviceName": "Realtek Audio",
+                "DriverVersion": "6.0.9709.1"
+            },
+            {
+                "DeviceName": "Detection Verification",
+                "DriverVersion": "1.0.1836.0"
+            },
+            {
+                "DeviceName": "Intel(R) Smart Sound Technology (Intel(R) SST) OED",
+                "DriverVersion": "10.29.0.5152"
+            },
+            {
+                "DeviceName": "Intel(R) Smart Sound Technology (Intel(R) SST) Audio Controller",
+                "DriverVersion": "10.29.0.5152"
+            },
+            {
+                "DeviceName": "Standard PS/2 Keyboard",
+                "DriverVersion": "10.0.26100.1882"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Tuning Generic Participant",
+                "DriverVersion": "8.7.10600.20853"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Tuning Generic Participant",
+                "DriverVersion": "8.7.10600.20853"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Tuning Generic Participant",
+                "DriverVersion": "8.7.10600.20853"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Tuning Generic Participant",
+                "DriverVersion": "8.7.10600.20853"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Tuning Generic Participant",
+                "DriverVersion": "8.7.10600.20853"
+            },
+            {
+                "DeviceName": "Microsoft ACPI-Compliant Embedded Controller",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Intel(R) Watchdog Timer Driver (Intel(R) WDT)",
+                "DriverVersion": "11.7.0.1001"
+            },
+            {
+                "DeviceName": "System timer",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "System CMOS/real time clock",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Motherboard resources",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Numeric data processor",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Programmable interrupt controller",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "High precision event timer",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Intel(R) LPC Controller (HM570) - 438B",
+                "DriverVersion": "10.1.34.13"
+            },
+            {
+                "DeviceName": "Realtek PCIe GbE Family Controller",
+                "DriverVersion": "10.57.330.2022"
+            },
+            {
+                "DeviceName": "Intel(R) PCI Express Root Port #14 - 43B5",
+                "DriverVersion": "10.1.34.13"
+            },
+            {
+                "DeviceName": "Disk drive",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Standard NVM Express Controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel(R) PCI Express Root Port #9 - 43B0",
+                "DriverVersion": "10.1.34.13"
+            },
+            {
+                "DeviceName": "Standard SATA AHCI Controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel(R) Management Engine WMI Provider",
+                "DriverVersion": "2512.7.1.0"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Application Loader Host Interface",
+                "DriverVersion": "1.46.2024.221"
+            },
+            {
+                "DeviceName": "Intel(R) Management Engine Interface #1",
+                "DriverVersion": "2512.7.3.0"
+            },
+            {
+                "DeviceName": "HID-compliant vendor-defined device",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft Input Configuration Device",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "HID-compliant touch pad",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "HID-compliant mouse",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "I2C HID Device",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel(R) Serial IO I2C Host Controller - 43E9",
+                "DriverVersion": "30.100.2104.1"
+            },
+            {
+                "DeviceName": "Intel(R) Serial IO I2C Host Controller - 43E8",
+                "DriverVersion": "30.100.2104.1"
+            },
+            {
+                "DeviceName": "Microsoft Wi-Fi Direct Virtual Adapter",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Microsoft Wi-Fi Direct Virtual Adapter",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Intelr PROSet/Wireless WiFi Software extension",
+                "DriverVersion": "23.1110.0.2"
+            },
+            {
+                "DeviceName": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                "DriverVersion": "23.110.0.5"
+            },
+            {
+                "DeviceName": "Intel(R) Shared SRAM - 43EF",
+                "DriverVersion": "10.1.34.13"
+            },
+            {
+                "DeviceName": "USB Video Device",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "USB Composite Device",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft Bluetooth LE Enumerator",
+                "DriverVersion": "10.0.26100.4484"
+            },
+            {
+                "DeviceName": "Bluetooth Device (Personal Area Network)",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Bluetooth Device",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "JL_SPP",
+                "DriverVersion": null
+            },
+            {
+                "DeviceName": "Audio Endpoint",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Audio Endpoint",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Microsoft Bluetooth Hands-Free Audio device",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft Bluetooth Hands-Free Profile AudioGateway role",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Microsoft Bluetooth Avrcp Transport Driver",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft Bluetooth Avrcp Transport Driver",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Audio Endpoint",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Microsoft Bluetooth A2dp Source",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "JL_SPP",
+                "DriverVersion": null
+            },
+            {
+                "DeviceName": "Microsoft Bluetooth Enumerator",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Standard Serial over Bluetooth link",
+                "DriverVersion": "10.0.26100.2161"
+            },
+            {
+                "DeviceName": "Standard Serial over Bluetooth link",
+                "DriverVersion": "10.0.26100.2161"
+            },
+            {
+                "DeviceName": "Bluetooth Device (RFCOMM Protocol TDI)",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Intel(R) Wireless Bluetooth(R)",
+                "DriverVersion": "23.100.0.4"
+            },
+            {
+                "DeviceName": "USB Root Hub (USB 3.0)",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "USB xHCI Compliant Host Controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "USB Root Hub (USB 3.0)",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "USB xHCI Compliant Host Controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel(R) Platform Monitoring Technology Driver",
+                "DriverVersion": "10.0.26100.3624"
+            },
+            {
+                "DeviceName": "Disk drive",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Standard NVM Express Controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Intel(R) PEG60 - 9A0F",
+                "DriverVersion": "10.1.43.5"
+            },
+            {
+                "DeviceName": "Intel(R) Dynamic Tuning Processor Participant",
+                "DriverVersion": "8.7.10600.20853"
+            },
+            {
+                "DeviceName": "Generic PnP Monitor",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Intel(R) Graphics Control Panel",
+                "DriverVersion": "32.0.101.6881"
+            },
+            {
+                "DeviceName": "Intel(R) Iris(R) Xe Graphics",
+                "DriverVersion": "32.0.101.6881"
+            },
+            {
+                "DeviceName": "NVIDIA High Definition Audio",
+                "DriverVersion": "1.4.3.2"
+            },
+            {
+                "DeviceName": "High Definition Audio Controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "NVIDIA GeForce RTX 3050 Laptop GPU",
+                "DriverVersion": "32.0.15.7683"
+            },
+            {
+                "DeviceName": "Intel(R) PEG10 - 9A01",
+                "DriverVersion": "10.1.43.5"
+            },
+            {
+                "DeviceName": "PCI standard host CPU bridge",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "PCI Express Root Complex",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft ACPI-Compliant System",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "ACPI x64-based PC",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Charge Arbitration Driver",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "UMBus Root Bus Enumerator",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Kernel Debug Network Adapter",
+                "DriverVersion": "10.0.26100.3624"
+            },
+            {
+                "DeviceName": "Microsoft Storage Spaces Controller",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft Virtual Drive Enumerator",
+                "DriverVersion": "10.0.26100.1591"
+            },
+            {
+                "DeviceName": "Composite Bus Enumerator",
+                "DriverVersion": "10.0.26100.1150"
+            },
+            {
+                "DeviceName": "Microsoft Hyper-V Virtualization Infrastructure Driver",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "VirtualBox Host-Only Ethernet Adapter",
+                "DriverVersion": "7.2.2.20484"
+            },
+            {
+                "DeviceName": "Microsoft Hypervisor Service",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": "Microsoft Basic Display Driver",
+                "DriverVersion": "10.0.26100.4202"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Generic volume shadow copy",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Generic volume shadow copy",
+                "DriverVersion": "10.0.26100.1"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Volume",
+                "DriverVersion": "10.0.26100.5074"
+            },
+            {
+                "DeviceName": "Volume Manager",
+                "DriverVersion": "10.0.26100.6725"
+            },
+            {
+                "DeviceName": null,
+                "DriverVersion": null
+            },
+            {
+                "DeviceName": null,
+                "DriverVersion": "2:10.0,2:6.3,2:6.2,2:6.1,2:6.0,2:5.2,2:5.1"
+            }
+        ]
+    },
+    "Patch": {
+        "OSVersion": {
+            "WindowsProductName": "Windows 10 Home",
+            "WindowsVersion": "2009",
+            "OsBuildNumber": "26200",
+            "OsArchitecture": "64-bit"
+        },
+        "LastUpdate": {
+            "LastUpdate": {
+                "HotFixID": "KB5066128",
+                "Description": "Update",
+                "InstalledOn": "{'value': '/Date(1760466600000)/', 'DateTime': 'Wednesday, October 15, 2025 12:00:00 AM'}"
+            }
+        },
+        "WindowsUpdates": {
+            "PendingUpdates": [
+                {
+                    "Title": "2025-10 Cumulative Update for Windows 11, version 25H2 for x64-based Systems (KB5066835) (26200.6899)",
+                    "KBArticleIDs": "5066835",
+                    "IsInstalled": false,
+                    "IsHidden": false
+                }
+            ]
+        },
+        "ApplicationUpdates": {
+            "Error": "Winget not available or failed: "
+        },
+        "SupportStatus": {
+            "OS": "Windows 10 Home",
+            "Build": "26200",
+            "Unsupported": false,
+            "Reason": null
+        }
+    }
+}
